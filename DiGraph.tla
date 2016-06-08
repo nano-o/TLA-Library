@@ -6,7 +6,7 @@
 (* declarative counterpart (e.g.  CHOOSE x \in X : P(x)).                  *)
 (***************************************************************************)
 
-EXTENDS FiniteSets, SequenceUtils, Naturals, Common
+EXTENDS FiniteSets, SequenceUtils, Naturals, Misc
     
     
 (***************************************************************************)
@@ -151,5 +151,5 @@ TotalOrder(G) ==
 
 =============================================================================
 \* Modification History
-\* Last modified Wed Jun 08 11:25:55 EDT 2016 by nano
+\* Last modified Wed Jun 08 11:28:25 EDT 2016 by nano
 \* Created Tue Jul 28 03:10:02 CEST 2015 by nano

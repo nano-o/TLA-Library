@@ -1,6 +1,6 @@
 --------------------------- MODULE SequenceUtils ---------------------------
 
-EXTENDS Sequences, Maps, Naturals, Common
+EXTENDS Sequences, Maps, Naturals, Misc
 
 IsIncreasing(f) ==
     \A x,y \in DOMAIN f : x <= y => f[x] <= f[y]
@@ -66,5 +66,5 @@ LongestCommonPrefix(S) ==
         
 =============================================================================
 \* Modification History
-\* Last modified Wed Jun 08 11:19:59 EDT 2016 by nano
+\* Last modified Wed Jun 08 11:28:55 EDT 2016 by nano
 \* Created Wed Jun 08 11:11:31 EDT 2016 by nano
